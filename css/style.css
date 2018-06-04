@@ -1,0 +1,51 @@
+body {
+	margin: 0;
+	font-family: Ubuntu;
+	font-size: 1em;
+	color: white;
+	padding: 0 100px;
+}
+
+.main {
+	margin: 100px auto;
+	padding: 50px 50px 25px 50px;
+	background: #b4cd01;
+	text-align: center;
+	border: 1px solid grey;
+	border-radius: 6px;
+
+}
+
+.clicks {
+	display: flex;
+	justify-content: center;
+	font-size: 2em;
+	padding-bottom: 10px;
+}
+
+#counter {
+	padding-left: 10px;
+}
+
+img {
+	width: 100%;
+	border-radius: 6px;
+
+}
+
+img:hover {
+	filter: brightness(110%);
+	transition: all 0.3s ease-in-out;
+}
+
+INPUT[type=button] {
+	border-radius: 6px;
+	border: none;
+	margin-top: 25px;
+	cursor: pointer;
+	
+}
+INPUT:hover {
+	background: white;
+	transition: all 0.3s ease-in-out;
+}
